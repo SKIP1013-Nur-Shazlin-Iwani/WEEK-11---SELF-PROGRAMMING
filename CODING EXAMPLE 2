@@ -1,0 +1,19 @@
+package myMethod;
+
+class Ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 25;
+		int num2 = 15;
+		Ex2 obj = new Ex2();
+		int result = Ex2.addNumbers(num1,num2);
+		System.out.println("Sum is : " + result);
+	}
+	
+	public static int addNumbers(int a, int b) {
+		int sum = a+b;
+		return sum;
+	}
+
+}
