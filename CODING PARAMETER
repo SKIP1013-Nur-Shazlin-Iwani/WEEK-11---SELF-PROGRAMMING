@@ -1,0 +1,19 @@
+package myMethod;
+
+class Parameters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Parameters obj = new Parameters();
+		obj.display1(); // method call with no parameter
+		obj.display2(24); // method call with parameter
+	}
+	
+	public static void display1() {
+		System.out.println("Method without parameter.");
+	}
+	
+	public static void display2(int a) {
+		System.out.println("Method with single parameter: " + a);
+	}
+}
